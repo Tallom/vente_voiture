@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuxAuto</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1 class="logo">🚘 LuxAuto 🚗<span></span></h1>
+    <nav>
+      <a href="#">Accueil</a>
+      <a href="#models">Modèles</a>
+      <a href="#order">Commander</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <!-- Section d'accueil -->
+<section class="hero">
+    <h2>🚘 L’excellence sur quatre roues 🚗</h2>
+    <p>Bienvenue chez LuxAuto, votre référence en voitures de prestige.</p>
+    <a href="#models" class="btn">Explorer notre collection</a>
+  </section>
+
+  <!-- Modèles -->
+  <section id="models" class="models">
+    <h2>Nos modèles</h2>
+    <div class="cards">
+      
+      <!-- Mercedes -->
+      <div class="card">
+        <img src="images/rouge.jpg" alt="Mercedes Classe S" class="car-image">
+        <h3>Mercedes Classe S</h3>
+        <ul>
+          <li>Prix : 55 000 000 Fcfa</li>
+          <li>Moteur : V8 Biturbo</li>
+          <li>Puissance : 500 ch</li>
+          <li>0-100 km/h : 4.3s</li>
+          <li>Couleurs : Noir, Blanc, Argent</li>
+        </ul>
+        <button>Détails</button>
+      </div>
+
+      <!-- BMW -->
+      <div class="card">
+        <img src="images/blue.jpg" alt="BMW Série 7" class="car-image"> 
+        <h3>BMW Série 7</h3>
+        <ul>
+          <li>Prix : 65 000 000 Fcfa</li>
+          <li>Moteur : 6 cylindres Turbo</li>
+          <li>Puissance : 380 ch</li>
+          <li>0-100 km/h : 5.2s</li>
+          <li>Couleurs : Bleu, Gris, Noir</li>
+        </ul>
+        <button>Détails</button>
+      </div>
+
+      <!-- Audi -->
+      <div class="card">
+        <img src="images/audia8.jpg" alt="Audi A8" class="car-image">
+        <h3>Audi A8</h3>
+        <ul>
+          <li>Prix : 55 000 000 Fcfa</li>
+          <li>Moteur : V6 Hybrid</li>
+          <li>Puissance : 340 ch</li>
+          <li>0-100 km/h : 5.5s</li>
+          <li>Couleurs : Blanc, Noir, Bordeaux</li>
+        </ul>
+        <button>Détails</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Formulaire -->
+  <section id="order" class="form-section">
+    <h2>Passer une commande</h2>
+    <form>
+      <label>Nom :</label>
+      <input type="text" required>
+
+      <label>Email :</label>
+      <input type="email" required>
+
+      <label>Téléphone :</label>
+      <input type="tel" required>
+
+      <label>Modèle souhaité :</label>
+      <select>
+        <option>Mercedes Classe S</option>
+        <option>BMW Série 7</option>
+        <option>Audi A8</option>
+      </select>
+
+      <label>Message :</label>
+      <textarea rows="4"></textarea>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p><strong>Adresse :</strong> Bonapriso rue koloko</p>
+    <p><strong>Téléphone :</strong> +237 692 42 45 60</p>
+    <p><strong>Email :</strong> contact@luxauto.fr</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 LuxAuto - Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
